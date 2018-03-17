@@ -1,0 +1,95 @@
+@import url("https://use.typekit.net/ubd8vvi.css");
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container {
+  /* max-width: 1000px; */
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.content-wrapper {
+}
+
+.content {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.social {
+  margin-bottom: 0;
+}
+
+.phone {
+  margin: 0;
+}
+
+/*--------------------------- HOMEPAGE STYLING ---------------------------*/
+.column-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  height: 100vh;
+}
+
+.column-right {
+  margin-left: 300px;
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  min-height: 100%;
+}
+
+/* #bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
