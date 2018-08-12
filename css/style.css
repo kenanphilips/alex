@@ -2,7 +2,7 @@
 
 body {
   font-family: "proxima-nova", sans-serif;
-  background-color: #000;
+  background: #000;
   color: #fff;
   position: relative;
   padding: 0;
@@ -67,12 +67,12 @@ a:hover {
   top: 0px;
   left: 0px;
   bottom: 0px;
-  width: 50%;
+  width: 35%;
   height: 100vh;
 }
 
 .column-right {
-  margin-left: 50%;
+  margin-left: 35%;
 }
 
 .video {
@@ -84,4 +84,18 @@ a:hover {
   overflow: hidden;
   z-index: -100;
   min-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: rgba(0,0,0,0.9);
+  }
+
+  .column-right {
+    margin-left: 0%;
+  }
+
+  .column-left {
+    width: 100%;
+  }
 }
